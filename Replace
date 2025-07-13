@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clashes🔥🔥 - Daily Betting Tips</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin: 1rem 0;
+    }
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+    .tips-section {
+      padding: 1rem;
+    }
+    .tip-card {
+      background-color: #1e1e1e;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #ffcc00;
+      border-radius: 5px;
+    }
+    .match-time {
+      color: #888;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>Clashes🔥🔥</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Today's Tips</a>
+  <a href="#">Archive</a>
+</nav>
+
+<section class="tips-section">
+  <h2>🔥 Today's Top Tips (GMT)</h2>
+
+  <div class="tip-card">
+    <strong>IFK Goteborg vs Elfsborg</strong><br/>
+    Market: Under 2.5 Goals<br/>
+    <span class="match-time">Kickoff: 13 July, 14:00 GMT</span>
+  </div>
+
+  <div class="tip-card">
+    <strong>Fredrikstad vs Molde</strong><br/>
+    Market: Under 2.5 Goals<br/>
+    <span class="match-time">Kickoff: 13 July, 16:00 GMT</span>
+  </div>
+
+  <div class="tip-card">
+    <strong>Internacional vs Vitória</strong><br/>
+    Market: Under 2.5 Goals<br/>
+    <span class="match-time">Kickoff: 13 July, 22:00 GMT</span>
+  </div>
+
+</section>
+
+<footer>© 2025 Clashes🔥🔥 | Powered by Oorteen11</footer>
+
+</body>
+</html>
