@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Johnbosco's Betting Tips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <header class="bg-blue-700 text-white p-5 text-center shadow-md">
+    <h1 class="text-2xl font-bold">Johnbosco's Daily Betting Tips</h1>
+    <p class="text-sm">All times are in GMT</p>
+  </header>
+
+  <main class="p-4 space-y-6">
+    
+    <section class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold mb-2">🔥 Today's Tips (July 13, 2025)</h2>
+      <ul class="space-y-2 list-disc pl-5">
+        <li>IFK Goteborg vs Elfsborg – <strong>Under 2.5 Goals</strong> (18:00 GMT)</li>
+        <li>Fredrikstad vs Molde – <strong>Under 2.5 Goals</strong> (16:00 GMT)</li>
+        <li>Internacional vs Vitória – <strong>Under 2.5 Goals</strong> (21:00 GMT)</li>
+        <li>UTC vs Alianza Lima – <strong>Under 2.5 Goals</strong> (23:30 GMT)</li>
+      </ul>
+    </section>
+
+    <section class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold mb-2">📊 Results (Updated)</h2>
+      <ul class="list-disc pl-5 text-sm text-gray-700">
+        <li>Goteborg vs Elfsborg – ✅ Under 2.5 (0-1)</li>
+        <li>Fredrikstad vs Molde – ✅ Under 2.5 (1-1)</li>
+        <li>Internacional vs Vitória – ✅ Under 2.5 (1-0)</li>
+        <li>UTC vs Alianza Lima – ❌ Over 2.5 (1-2)</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="bg-blue-700 text-white text-center p-3 mt-6">
+    <p class="text-sm">© 2025 Johnbosco Tips. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
