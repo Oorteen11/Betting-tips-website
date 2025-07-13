@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Johnbosco Tips | Daily Football Predictions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-700 text-white text-center p-5 shadow-md">
+    <h1 class="text-3xl font-bold">Johnbosco Betting Tips</h1>
+    <p class="text-sm mt-1">Daily predictions | GMT Time | Updated Results</p>
+  </header>
+
+  <!-- Today's Tips -->
+  <main class="p-4 space-y-6">
+    <section class="bg-white p-4 rounded-2xl shadow">
+      <h2 class="text-xl font-bold mb-3">🔥 Today's Tips – July 13, 2025</h2>
+      <ul class="space-y-2 list-disc pl-6 text-base">
+        <li><span class="font-semibold">IFK Goteborg vs Elfsborg</span> – Under 2.5 Goals (18:00 GMT)</li>
+        <li><span class="font-semibold">Fredrikstad vs Molde</span> – Under 2.5 Goals (16:00 GMT)</li>
+        <li><span class="font-semibold">Internacional vs Vitória</span> – Under 2.5 Goals (21:00 GMT)</li>
+        <li><span class="font-semibold">UTC vs Alianza Lima</span> – Under 2.5 Goals (23:30 GMT)</li>
+      </ul>
+    </section>
+
+    <!-- Results -->
+    <section class="bg-white p-4 rounded-2xl shadow">
+      <h2 class="text-xl font-bold mb-3">✅ Results</h2>
+      <ul class="list-disc pl-6 text-sm text-gray-700 space-y-1">
+        <li>Goteborg vs Elfsborg – ✅ Under 2.5 (0–1)</li>
+        <li>Fredrikstad vs Molde – ✅ Under 2.5 (1–1)</li>
+        <li>Internacional vs Vitória – ✅ Under 2.5 (1–0)</li>
+        <li>UTC vs Alianza Lima – ❌ Over 2.5 (1–2)</li>
+      </ul>
+    </section>
+
+    <!-- Performance Tracker (Optional) -->
+    <section class="bg-white p-4 rounded-2xl shadow">
+      <h2 class="text-xl font-bold mb-3">📊 Weekly Record</h2>
+      <p class="text-sm text-gray-700">Wins: <span class="text-green-600 font-semibold">3</span> | Losses: <span class="text-red-600 font-semibold">1</span></p>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-white p-4 rounded-2xl shadow text-sm text-center">
+      <p>📞 Contact on WhatsApp: <a href="https://wa.me/256707326497" class="text-blue-600 underline">+256707326497</a></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center p-3 mt-6">
+    <p class="text-sm">&copy; 2025 Johnbosco Tips. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
