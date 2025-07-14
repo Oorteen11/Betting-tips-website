@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #222;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    input, select {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 10px 15px;
+      background: #111;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .output {
+      margin-top: 20px;
+      white-space: pre-wrap;
+      background: #eee;
+      padding: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>🧾 Admin Tip Entry</h2>
+
+<form id="tipForm">
+  <input type="text" id="match" placeholder="Team A vs Team B" required>
+  <input type="text" id="tip" placeholder="Tip (e.g., Under 2.5 Goals)" required>
+  <input type="text" id="time" placeholder="Kickoff Time (e.g., 20:00 GMT)" required>
+  <select id="category">
+    <option value="Safe">Safe</option>
+    <option value="Moderate">Moderate</option>
+    <option value="Risky">Risky</option>
+  </select>
+  <button type="submit">Generate Tip Card</button>
+</form>
+
+<div class="output" id="output"></div>
+
+<script>
+document.getElementById('tipForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const match = document.getElementById('match').value;
+  const tip = document.getElementById('tip').value;
+  const time = document.getElementById('time').value;
+  const category = document.getElementById('category').value;
+  
+  const html = `
+<!-- ${category} Tips -->
+<div class="tip-card">
+  <div class="match">${match}</div>
+  <div class="market">Tip: ${tip}</div>
+  <div class="time">Kickoff: ${time}</div>
+</div>`;
+  
+  document.getElementById('output').textContent = html;
+});
+</script>
+
+</body>
+</html>
