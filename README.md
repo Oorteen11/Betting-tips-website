@@ -596,3 +596,7 @@ Accurate tips for betting with results and in GMT
 </body>
 </html>
 <a href="premium.html">Premium</a>
+<a href="premium.html">Premium</a>
+<a href="results.html">Results</a>
+<a href="admin.html">Admin</a>
+<a href="blog.html">Blog</a>
