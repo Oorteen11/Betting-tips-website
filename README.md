@@ -3,6 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Betting Tips</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: #fff;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    .tip-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 15px;
+      transition: 0.3s ease;
+    }
+
+    .tip-card:hover {
+      transform: scale(1.01);
+    }
+
+    .match {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .market {
+      margin-top: 5px;
+      color: #555;
+    }
+
+    .time {
+      color: #888;
+      font-size: 0.9em;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Daily Betting Tips</h1>
+    <p>Updated daily | GMT time</p>
+  </header>
+
+  <div class="tip-card">
+    <div class="match">Chelsea vs PSG</div>
+    <div class="market">Tip: Chelsea win to nil</div>
+    <div class="time">Kickoff: 19:00 GMT</div>
+  </div>
+
+  <div class="tip-card">
+    <div class="match">Molde vs Fredrikstad</div>
+    <div class="market">Tip: Under 2.5 Goals</div>
+    <div class="time">Kickoff: 18:00 GMT</div>
+  </div>
+
+  <!-- Add more .tip-card blocks as needed -->
+
+  <footer>
+    &copy; 2025 Betting Tips by Oorteen11
+  </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daily Betting Tips | Oorteen11</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
