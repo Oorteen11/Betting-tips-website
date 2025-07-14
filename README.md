@@ -2,6 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Betting Tips</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px 10px 0 0;
+    }
+
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+      border-radius: 0 0 10px 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    nav a:hover {
+      background-color: #444;
+    }
+
+    .search-box {
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .search-box input {
+      padding: 10px;
+      width: 90%;
+      max-width: 400px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+
+    .category-heading {
+      font-size: 1.3em;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #333;
+      border-left: 4px solid #444;
+      padding-left: 10px;
+    }
+
+    .tip-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 15px;
+      transition: 0.3s ease;
+    }
+
+    .tip-card:hover {
+      transform: scale(1.01);
+    }
+
+    .match {
+      font-weight: bold;
+      color: #111;
+    }
+
+    .market {
+      margin-top: 5px;
+      color: #555;
+    }
+
+    .time {
+      color: #999;
+      font-size: 0.9em;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #aaa;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Daily Betting Tips</h1>
+    <p>Updated daily | Based on GMT</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#safe">Safe Tips</a>
+    <a href="#moderate">Moderate</a>
+    <a href="#risky">Risky</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="search-box">
+    <input type="text" id="searchInput"<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Betting Tips</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
