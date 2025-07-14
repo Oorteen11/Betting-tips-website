@@ -317,31 +317,7 @@
   <title>Daily Betting Tips | Oorteen11</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f7fa;
-      color: #333;
-    }
-
-    header {
-      background-color: #1a1a2e;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 20px auto;
-      padding: 10px;
-    }
-
-    .tip-card {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
       padding: 15px;
       margin-bottom: 15px;
     }
@@ -619,3 +595,4 @@ Accurate tips for betting with results and in GMT
 
 </body>
 </html>
+<a href="premium.html">Premium</a>
