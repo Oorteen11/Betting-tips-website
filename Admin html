@@ -1,4 +1,92 @@
+<!-- admin.html -->
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Tip Submission</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    h2 {
+      text-align: center;
+      color: #444;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🔒 Admin Tip Submission</h2>
+    <form id="tipForm">
+      <label>Date (YYYY-MM-DD):</label>
+      <input type="date" name="date" required />
+
+      <label>Match:</label>
+      <input type="text" name="match" placeholder="e.g., Chelsea vs PSG" required />
+
+      <label>Market:</label>
+      <input type="text" name="market" placeholder="e.g., 1st Half Under 1.5" required />
+
+      <label>Prediction:</label>
+      <input type="text" name="prediction" placeholder="e.g., Under 1.5" required />
+
+      <label>Match Time (GMT):</label>
+      <input type="time" name="time" required />
+
+      <label>Note / Emojis (Optional):</label>
+      <textarea name="note" placeholder="🔥 Big odds" rows="2"></textarea>
+
+      <button type="submit">➕ Submit Tip</button>
+    </form>
+    <p id="status" style="text-align:center; margin-top:10px;"></p>
+  </div>
+
+  <script>
+    document.getElementById('tipForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('status').textContent = '🕒 Sending...';
+
+      // Later: Submit to Google Sheet
+      // For now, just show success
+      setTimeout(() => {
+        document.getElementById('status').textContent = '✅ Tip submitted (not yet saved to sheet)';
+        this.reset();
+      }, 1000);
+    });
+  </script>
+</body>
+</html><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
