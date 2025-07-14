@@ -333,3 +333,159 @@
   </body>
 </html># Betting-tips-website
 Accurate tips for betting with results and in GMT
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Betting Tips</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px 10px 0 0;
+    }
+
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      border-radius: 0 0 10px 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    nav a:hover {
+      background-color: #444;
+    }
+
+    .category-heading {
+      font-size: 1.3em;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #333;
+      border-left: 4px solid #444;
+      padding-left: 10px;
+    }
+
+    .tip-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 15px;
+      transition: 0.3s ease;
+    }
+
+    .tip-card:hover {
+      transform: scale(1.01);
+    }
+
+    .match {
+      font-weight: bold;
+      color: #111;
+    }
+
+    .market {
+      margin-top: 5px;
+      color: #555;
+    }
+
+    .time {
+      color: #999;
+      font-size: 0.9em;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Daily Betting Tips</h1>
+    <p>Updated daily | Based on GMT</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#safe">Safe Tips</a>
+    <a href="#moderate">Moderate</a>
+    <a href="#risky">Risky</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Safe Tips -->
+  <div id="safe" class="category-heading">🔒 Safe Tips</div>
+
+  <div class="tip-card">
+    <div class="match">Chelsea vs PSG</div>
+    <div class="market">Tip: Chelsea win to nil</div>
+    <div class="time">Kickoff: 19:00 GMT</div>
+  </div>
+
+  <div class="tip-card">
+    <div class="match">Fredrikstad vs Molde</div>
+    <div class="market">Tip: Under 2.5 Goals</div>
+    <div class="time">Kickoff: 18:00 GMT</div>
+  </div>
+
+  <!-- Moderate Tips -->
+  <div id="moderate" class="category-heading">⚠️ Moderate Tips</div>
+
+  <div class="tip-card">
+    <div class="match">Inter vs Vitória</div>
+    <div class="market">Tip: Full Time Result – Draw</div>
+    <div class="time">Kickoff: 20:00 GMT</div>
+  </div>
+
+  <!-- Risky Tips -->
+  <div id="risky" class="category-heading">🎯 Risky Tips</div>
+
+  <div class="tip-card">
+    <div class="match">Barcelona vs Man City</div>
+    <div class="market">Tip: Correct Score 2-1</div>
+    <div class="time">Kickoff: 21:00 GMT</div>
+  </div>
+
+  <!-- Contact -->
+  <div id="contact" class="category-heading">📧 Contact</div>
+  <div class="tip-card">
+    <div class="market">Email: tips@yourbettingsite.com</div>
+    <div class="market">Telegram: @YourBetChannel</div>
+  </div>
+
+  <footer>
+    &copy; 2025 Betting Tips by Oorteen11
+  </footer>
+
+</body>
+</html>
